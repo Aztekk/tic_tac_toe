@@ -14,6 +14,7 @@ class Board:
             for j in range(self.field_size):
                 if self.board[i][j] == ' ':
                     return False
+        return True
 
     def check_win(self, player: str) -> bool:
         """Check if player win
