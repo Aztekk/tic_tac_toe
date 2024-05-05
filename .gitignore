@@ -1,0 +1,4 @@
+venv/
+.vscode/
+.mype_cache/
+__pycache__/
